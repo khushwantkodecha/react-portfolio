@@ -1,0 +1,72 @@
+.home {
+  width: 100%;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 4.6em;
+  z-index: 0;
+  height: 100vh;
+  background: url("../images/home7.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home h3 {
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 6em;
+  padding-bottom: 1em;
+  color: #fff;
+  line-height: 35pt;
+  font-size: 2.4rem;
+  font-family: "Merienda";
+}
+
+.home button {
+  font-family: "Merienda";
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.6em 0.7em;
+  border: 2px solid white;
+  background: transparent;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.home button:focus {
+  color: #fff;
+  outline: none;
+}
+
+.home button:hover {
+  color: #fff;
+}
+.home button img {
+  padding-left: 10px;
+  width: 40px;
+}
+
+.home h3 span {
+  color: #33e22d;
+  font-size: 3rem;
+}
+
+.home__contents {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .home h3 {
+    line-height: 30pt;
+    font-size: 1.6rem;
+  }
+  .home h3 span {
+    font-size: 2rem;
+  }
+  .home button img {
+    width: 30px;
+  }
+}
