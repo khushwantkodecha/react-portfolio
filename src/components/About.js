@@ -29,7 +29,7 @@ const About = () => {
       level: 70,
     },
     {
-      type: "EXPRESS JS",
+      type: "EXPRESS.JS",
       level: 85,
     },
     {
@@ -51,7 +51,7 @@ const About = () => {
   };
 
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-contents">
         <h2>ABOUT</h2>
         <div className="about-img-para">

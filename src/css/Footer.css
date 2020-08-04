@@ -1,0 +1,16 @@
+.footer {
+  background-color: #1b242f;
+  margin-bottom: 0 !important;
+  height: 150px;
+}
+
+.footer h1 {
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    height: 180px;
+  }
+}

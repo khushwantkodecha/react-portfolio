@@ -1,0 +1,47 @@
+.contact__form {
+  padding: 1em 1.4em;
+}
+
+.contact {
+  background-color: #e3efe3;
+}
+
+.contact h2 {
+  padding: 0.4em 0.3em;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: 700;
+  font-family: "Merienda";
+}
+
+button {
+  margin-bottom: 1em;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+}
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none !important;
+  outline-color: grey !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+.contact__button {
+  text-align: center;
+  color: #fff !important;
+  background-image: linear-gradient("red", "pink") !important;
+  background-color: #04c2c9 !important;
+}
+
+.contact__button:focus,
+.contact__button:active {
+  outline: none !important;
+  outline-color: grey !important;
+  box-shadow: none !important;
+}

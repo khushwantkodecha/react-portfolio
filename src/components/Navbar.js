@@ -19,18 +19,26 @@ function Navbar() {
         </div>
       </div>
       <ul className={`nav-links ${isChecked ? "checked" : "not-checked"}`}>
-        <li onClick={() => setIsChecked(false)}>
-          <a>HOME</a>
-        </li>
-        <li onClick={() => setIsChecked(false)}>
-          <a>ABOUT</a>
-        </li>
-        <li onClick={() => setIsChecked(false)}>
-          <a>PORTFOLIO</a>
-        </li>
-        <li onClick={() => setIsChecked(false)}>
-          <a>CONTACT</a>
-        </li>
+        <a href="#home">
+          <li onClick={() => setIsChecked(false)}>
+            <a>HOME</a>
+          </li>
+        </a>
+        <a href="#about">
+          <li onClick={() => setIsChecked(false)}>
+            <a>ABOUT</a>
+          </li>
+        </a>
+        <a href="#portfolio">
+          <li onClick={() => setIsChecked(false)}>
+            <a>PORTFOLIO</a>
+          </li>
+        </a>
+        <a href="#contact">
+          <li onClick={() => setIsChecked(false)}>
+            <a>CONTACT</a>
+          </li>
+        </a>
       </ul>
     </header>
   );
