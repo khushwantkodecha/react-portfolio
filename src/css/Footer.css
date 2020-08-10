@@ -1,14 +1,48 @@
 .footer {
+  width: 100%;
   background-color: #1b242f;
   margin-bottom: 0 !important;
   height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.footer h1 {
-  margin-bottom: 0 !important;
-  padding: 0;
+.footer__links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+}
+.footer__links li {
+  color: #fff;
+  font-size: 33px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
 }
 
+.footer__links li:hover {
+  transform: scale(1.2);
+}
+
+.footer__links li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer__links li a:hover {
+  color: #fff;
+}
+
+.footer__links li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.footer h5 {
+  color: #fff;
+  padding: 0.3em;
+}
 @media screen and (max-width: 1300px) {
   .footer {
     height: 180px;

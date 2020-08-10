@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../css/Navbar.css";
 import Hamburger from "../images/hamburger3.png";
 import Cross from "../images/cross4.png";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [isChecked, setIsChecked] = useState(false);
@@ -19,26 +20,27 @@ function Navbar() {
         </div>
       </div>
       <ul className={`nav-links ${isChecked ? "checked" : "not-checked"}`}>
-        <a href="#home">
+        <Link to="home" smooth={true} duration={700}>
           <li onClick={() => setIsChecked(false)}>
             <a>HOME</a>
           </li>
-        </a>
-        <a href="#about">
+        </Link>
+        <Link to="about" smooth={true} duration={700}>
           <li onClick={() => setIsChecked(false)}>
             <a>ABOUT</a>
           </li>
-        </a>
-        <a href="#portfolio">
+        </Link>
+
+        <Link to="portfolio" smooth={true} duration={700}>
           <li onClick={() => setIsChecked(false)}>
             <a>PORTFOLIO</a>
           </li>
-        </a>
-        <a href="#contact">
+        </Link>
+        <Link to="contact" smooth={true} duration={700}>
           <li onClick={() => setIsChecked(false)}>
             <a>CONTACT</a>
           </li>
-        </a>
+        </Link>
       </ul>
     </header>
   );
