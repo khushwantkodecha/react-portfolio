@@ -5,6 +5,7 @@ import TODO from "../images/TODO.png";
 import Messenger from "../images/Messenger.png";
 import TicTac from "../images/TicTac.png";
 import NewsReader from "../images/NewsReader.png";
+import Spotify from "../images/MusicMaster.png";
 
 const Portfolio = () => {
   const projects = [
@@ -44,11 +45,11 @@ const Portfolio = () => {
       tech: "React/Firebase",
     },
     {
-      name: "Netflix Clone",
-      link: "https://netflix-clone-df5e8.web.app/",
-      image: NetFlix,
-      alt: "Netflix",
-      tech: "React/Node",
+      name: "Spotify Music Preview App",
+      link: "https://spotify-music-preview.web.app/",
+      image: Spotify,
+      alt: "Spotify",
+      tech: "React/Spotify API/Firebase",
     },
   ];
   return (
