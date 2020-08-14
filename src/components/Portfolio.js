@@ -1,55 +1,53 @@
 import React from "react";
 import "../css/Portfolio.css";
 import NetFlix from "../images/netflix.png";
+import TODO from "../images/TODO.png";
+import Messenger from "../images/Messenger.png";
+import TicTac from "../images/TicTac.png";
+import NewsReader from "../images/NewsReader.png";
 
 const Portfolio = () => {
   const projects = [
     {
-      name: "Netflix Clone",
-      link: "https://netflix-clone-df5e8.web.app/",
-      image: NetFlix,
-      alt: "Netflix",
-      description: "a music masrer app",
-      tech: "React/Node",
+      name: "AI Based Voice Controlled News Reader",
+      link: "https://ai-news-reader.web.app/",
+      image: NewsReader,
+      alt: "NewsReader",
+      tech: "React/News API/ Firebase",
     },
     {
       name: "Netflix Clone",
       link: "https://netflix-clone-df5e8.web.app/",
       image: NetFlix,
       alt: "Netflix",
-      description: "a music masrer app",
-      tech: "React/Node",
+      tech: "React/TMDB api",
+    },
+    {
+      name: "Facebook Messenger Clone",
+      link: "https://messenger-clone-63b48.web.app/",
+      image: Messenger,
+      alt: "Messengeer",
+      tech: "React/Firebase",
+    },
+    {
+      name: "Todo App",
+      link: "https://react-todo-e73c0.web.app/",
+      image: TODO,
+      alt: "react todo app",
+      tech: "React/Firebase",
+    },
+    {
+      name: "Tic Tac Toe",
+      link: "https://tic-tac-toe-3fdee.web.app/",
+      image: TicTac,
+      alt: "Tic Tac Toe",
+      tech: "React/Firebase",
     },
     {
       name: "Netflix Clone",
       link: "https://netflix-clone-df5e8.web.app/",
       image: NetFlix,
       alt: "Netflix",
-      description: "a music masrer app",
-      tech: "React/Node",
-    },
-    {
-      name: "Netflix Clone",
-      link: "https://netflix-clone-df5e8.web.app/",
-      image: NetFlix,
-      alt: "Netflix",
-      description: "a music masrer app",
-      tech: "React/Node",
-    },
-    {
-      name: "Netflix Clone",
-      link: "https://netflix-clone-df5e8.web.app/",
-      image: NetFlix,
-      alt: "Netflix",
-      description: "a music masrer app",
-      tech: "React/Node",
-    },
-    {
-      name: "Netflix Clone",
-      link: "https://netflix-clone-df5e8.web.app/",
-      image: NetFlix,
-      alt: "Netflix",
-      description: "a music masrer app",
       tech: "React/Node",
     },
   ];
