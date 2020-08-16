@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e3f59011903dc7fcc3a13ef003ded3a",
+    "revision": "6bc4e078944d447eada1b1c01a256a19",
     "url": "/index.html"
   },
   {
-    "revision": "8e2dcdc375a60fdaa88e",
+    "revision": "29454cc7b36975f19b5e",
     "url": "/static/css/2.cde8bf66.chunk.css"
   },
   {
-    "revision": "212a198ebc3cc2bd7eeb",
+    "revision": "eb43497bef3d545b8f63",
     "url": "/static/css/main.3aff0d66.chunk.css"
   },
   {
-    "revision": "8e2dcdc375a60fdaa88e",
-    "url": "/static/js/2.32698b17.chunk.js"
+    "revision": "29454cc7b36975f19b5e",
+    "url": "/static/js/2.295488db.chunk.js"
   },
   {
     "revision": "74b5b99a348fedd13ab1cb018bec8748",
-    "url": "/static/js/2.32698b17.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.295488db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "212a198ebc3cc2bd7eeb",
-    "url": "/static/js/main.067d7087.chunk.js"
+    "revision": "eb43497bef3d545b8f63",
+    "url": "/static/js/main.ed2317ba.chunk.js"
   },
   {
     "revision": "c6535a732c9026b327df",
     "url": "/static/js/runtime-main.39a9aa13.js"
+  },
+  {
+    "revision": "fbbae75ec0c97e0110e40f64d4c754c4",
+    "url": "/static/media/Color.fbbae75e.png"
+  },
+  {
+    "revision": "98c5ee76541f41011a109455259a8ba2",
+    "url": "/static/media/Exam.98c5ee76.png"
+  },
+  {
+    "revision": "c030be4e26e08e8997185c8f3e8d5e68",
+    "url": "/static/media/HackerNews.c030be4e.png"
   },
   {
     "revision": "eb1e7c26c13396fe3a8955e9891f5cd0",
@@ -46,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1caccfacdccbca30618618830c86a19b",
     "url": "/static/media/TicTac.1caccfac.png"
+  },
+  {
+    "revision": "ef8ff81684d686abc63788e8650d90f4",
+    "url": "/static/media/Weather.ef8ff816.png"
   },
   {
     "revision": "3b4a31671e61770ede378ea593ab70e8",
