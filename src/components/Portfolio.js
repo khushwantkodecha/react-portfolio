@@ -6,6 +6,10 @@ import Messenger from "../images/Messenger.png";
 import TicTac from "../images/TicTac.png";
 import NewsReader from "../images/NewsReader.png";
 import Spotify from "../images/MusicMaster.png";
+import Weather from "../images/Weather.png";
+import Exam from "../images/Exam.png";
+import HackerNews from "../images/HackerNews.png";
+import Color from "../images/Color.png";
 
 const Portfolio = () => {
   const projects = [
@@ -24,10 +28,38 @@ const Portfolio = () => {
       tech: "React/TMDB api",
     },
     {
+      name: "Weather Web App",
+      link: "https://react-weather-app-eb372.web.app/",
+      image: Weather,
+      alt: "Weather App",
+      tech: "React/Open Weather API/Firebase",
+    },
+    {
       name: "Facebook Messenger Clone",
       link: "https://messenger-clone-63b48.web.app/",
       image: Messenger,
       alt: "Messengeer",
+      tech: "React/Firestore",
+    },
+    {
+      name: "Spotify Music Preview App",
+      link: "https://spotify-music-preview.web.app/",
+      image: Spotify,
+      alt: "Spotify",
+      tech: "React/Spotify API/Firebase",
+    },
+    {
+      name: "Exam Web App",
+      link: "https://react-exam-app.web.app/",
+      image: Exam,
+      alt: "Exam",
+      tech: "React/Firebase",
+    },
+    {
+      name: "UI Color Picker",
+      link: "https://react-color-picker-c2268.web.app/",
+      image: Color,
+      alt: "Color",
       tech: "React/Firebase",
     },
     {
@@ -35,7 +67,7 @@ const Portfolio = () => {
       link: "https://react-todo-e73c0.web.app/",
       image: TODO,
       alt: "react todo app",
-      tech: "React/Firebase",
+      tech: "React/Firestore",
     },
     {
       name: "Tic Tac Toe",
@@ -45,11 +77,11 @@ const Portfolio = () => {
       tech: "React/Firebase",
     },
     {
-      name: "Spotify Music Preview App",
-      link: "https://spotify-music-preview.web.app/",
-      image: Spotify,
-      alt: "Spotify",
-      tech: "React/Spotify API/Firebase",
+      name: "Hacker News Clone",
+      link: "https://react-hacker-news-237bc.web.app/",
+      image: HackerNews,
+      alt: "HackerNews",
+      tech: "React/Hacker News API/Firebase",
     },
   ];
   return (

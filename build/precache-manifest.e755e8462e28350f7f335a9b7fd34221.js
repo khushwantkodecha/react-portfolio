@@ -1,31 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7940dde2612584d91557a0028f8cf514",
+    "revision": "3e3f59011903dc7fcc3a13ef003ded3a",
     "url": "/index.html"
   },
   {
-    "revision": "cad8ed6f7bb3c49a2da8",
+    "revision": "8e2dcdc375a60fdaa88e",
     "url": "/static/css/2.cde8bf66.chunk.css"
   },
   {
-    "revision": "332d53690b5f66f40643",
-    "url": "/static/css/main.e9fab02d.chunk.css"
+    "revision": "212a198ebc3cc2bd7eeb",
+    "url": "/static/css/main.3aff0d66.chunk.css"
   },
   {
-    "revision": "cad8ed6f7bb3c49a2da8",
-    "url": "/static/js/2.ffa7f40a.chunk.js"
+    "revision": "8e2dcdc375a60fdaa88e",
+    "url": "/static/js/2.32698b17.chunk.js"
   },
   {
     "revision": "74b5b99a348fedd13ab1cb018bec8748",
-    "url": "/static/js/2.ffa7f40a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.32698b17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "332d53690b5f66f40643",
-    "url": "/static/js/main.baa595cf.chunk.js"
+    "revision": "212a198ebc3cc2bd7eeb",
+    "url": "/static/js/main.067d7087.chunk.js"
   },
   {
     "revision": "c6535a732c9026b327df",
     "url": "/static/js/runtime-main.39a9aa13.js"
+  },
+  {
+    "revision": "eb1e7c26c13396fe3a8955e9891f5cd0",
+    "url": "/static/media/Messenger.eb1e7c26.png"
+  },
+  {
+    "revision": "c21c67a358676ca5281bf43a7c14d356",
+    "url": "/static/media/MusicMaster.c21c67a3.png"
+  },
+  {
+    "revision": "8cb6f13d6bf1ddb5ecd8b59dcd25b7d7",
+    "url": "/static/media/NewsReader.8cb6f13d.png"
+  },
+  {
+    "revision": "e041e483651a330c6a55d457f6123a2f",
+    "url": "/static/media/TODO.e041e483.png"
+  },
+  {
+    "revision": "1caccfacdccbca30618618830c86a19b",
+    "url": "/static/media/TicTac.1caccfac.png"
   },
   {
     "revision": "3b4a31671e61770ede378ea593ab70e8",
@@ -38,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1b7bd8ced5ab58da77b64c4fee49c48",
     "url": "/static/media/home7.e1b7bd8c.gif"
+  },
+  {
+    "revision": "203ac0040d28938b0c8ea9b67eec7693",
+    "url": "/static/media/netflix.203ac004.png"
   },
   {
     "revision": "0b4ac1dc75df35e169b70d7719afe4cc",
