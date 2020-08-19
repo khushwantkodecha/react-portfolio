@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.3aff0d66.chunk.css",
-    "main.js": "/static/js/main.ed2317ba.chunk.js",
-    "main.js.map": "/static/js/main.ed2317ba.chunk.js.map",
+    "main.js": "/static/js/main.a8a3743e.chunk.js",
+    "main.js.map": "/static/js/main.a8a3743e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39a9aa13.js",
     "runtime-main.js.map": "/static/js/runtime-main.39a9aa13.js.map",
     "static/css/2.cde8bf66.chunk.css": "/static/css/2.cde8bf66.chunk.css",
-    "static/js/2.295488db.chunk.js": "/static/js/2.295488db.chunk.js",
-    "static/js/2.295488db.chunk.js.map": "/static/js/2.295488db.chunk.js.map",
+    "static/js/2.42da0287.chunk.js": "/static/js/2.42da0287.chunk.js",
+    "static/js/2.42da0287.chunk.js.map": "/static/js/2.42da0287.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4511818df5d65be5c2f2aaca2e24233f.js": "/precache-manifest.4511818df5d65be5c2f2aaca2e24233f.js",
+    "precache-manifest.ad4d38ea44dc69b22f388c613b06dc4a.js": "/precache-manifest.ad4d38ea44dc69b22f388c613b06dc4a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cde8bf66.chunk.css.map": "/static/css/2.cde8bf66.chunk.css.map",
     "static/css/main.3aff0d66.chunk.css.map": "/static/css/main.3aff0d66.chunk.css.map",
-    "static/js/2.295488db.chunk.js.LICENSE.txt": "/static/js/2.295488db.chunk.js.LICENSE.txt",
+    "static/js/2.42da0287.chunk.js.LICENSE.txt": "/static/js/2.42da0287.chunk.js.LICENSE.txt",
     "static/media/Color.png": "/static/media/Color.fbbae75e.png",
     "static/media/Exam.png": "/static/media/Exam.98c5ee76.png",
     "static/media/HackerNews.png": "/static/media/HackerNews.c030be4e.png",
     "static/media/Messenger.png": "/static/media/Messenger.eb1e7c26.png",
     "static/media/MusicMaster.png": "/static/media/MusicMaster.c21c67a3.png",
     "static/media/NewsReader.png": "/static/media/NewsReader.8cb6f13d.png",
+    "static/media/Reels.png": "/static/media/Reels.2b8e4b33.png",
     "static/media/TODO.png": "/static/media/TODO.e041e483.png",
     "static/media/TicTac.png": "/static/media/TicTac.1caccfac.png",
     "static/media/Weather.png": "/static/media/Weather.ef8ff816.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.39a9aa13.js",
     "static/css/2.cde8bf66.chunk.css",
-    "static/js/2.295488db.chunk.js",
+    "static/js/2.42da0287.chunk.js",
     "static/css/main.3aff0d66.chunk.css",
-    "static/js/main.ed2317ba.chunk.js"
+    "static/js/main.a8a3743e.chunk.js"
   ]
 }

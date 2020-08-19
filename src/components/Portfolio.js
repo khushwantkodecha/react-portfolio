@@ -10,6 +10,7 @@ import Weather from "../images/Weather.png";
 import Exam from "../images/Exam.png";
 import HackerNews from "../images/HackerNews.png";
 import Color from "../images/Color.png";
+import Reels from "../images/Reels.png";
 
 const Portfolio = () => {
   const projects = [
@@ -60,6 +61,13 @@ const Portfolio = () => {
       link: "https://react-color-picker-c2268.web.app/",
       image: Color,
       alt: "Color",
+      tech: "React/Firebase",
+    },
+    {
+      name: "Instagram Reels Clone",
+      link: "https://ig-reels-clone-89a5e.web.app/",
+      image: Reels,
+      alt: "Reels",
       tech: "React/Firebase",
     },
     {
