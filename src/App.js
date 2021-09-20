@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <React.Fragment>
+      <h1>heading from master branch!</h1>
       <Home />
       <Navbar />
       <About />
