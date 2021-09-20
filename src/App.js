@@ -11,6 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <h1>heading from master branch!</h1>
+      <h2>heading from b one branch</h2>
       <Home />
       <Navbar />
       <About />
